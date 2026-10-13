@@ -10,8 +10,13 @@ four modality conditions and chose how much to invest. This repository contains
 **the raw survey scores, the analysis code, and the exact commands** that
 regenerate every figure and statistic in the paper.
 
-> A college student should be able to clone this, run two commands, and get the
-> paper's numbers. Start with [Quick start](#quick-start).
+See [Quick start](#quick-start) to reproduce the paper's numbers.
+
+> **Running your own analysis?** The main full study dataset is
+> **`data/experiment_survey/mergedFinal.csv`** — 1088 rows × 29 columns, one row
+> per participant×pitch rating, covering all four conditions (Group1–Group4).
+> A demographics-annotated copy is in `data/experiment_survey/mergedFinal_demo.csv`.
+> Start there for any new analysis.
 
 ---
 
