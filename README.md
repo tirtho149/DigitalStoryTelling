@@ -165,7 +165,7 @@ Run all commands **from the `code/` directory**. Paths are relative to `code/`.
 Both scripts accept `--csv PATH` and `--out PATH` to point at other data/output
 locations (defaults already point inside this repo).
 
-### Study 2 — Random Forest funding-duration prediction  → paper Fig 4
+### Random Forest — funding-duration prediction  → paper Fig 4
 
 | Command | Produces | Paper element |
 |---------|----------|---------------|
