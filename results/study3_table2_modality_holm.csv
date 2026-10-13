@@ -1,0 +1,49 @@
+outcome,dimension,criterion,contrast,H1,n_lo,n_hi,median_lo,median_hi,U,p_one_sided,p_holm,significant_holm_.05
+Q1,Environmental,Credibility,Control vs Treatment A,Treatment A > Control,178,230,3.0,3.0,19223.0,0.8701898730765957,1.0,False
+Q2,Environmental,Emotional Appeal,Control vs Treatment A,Treatment A > Control,178,230,3.0,3.0,21411.5,0.19646875068694186,1.0,False
+Q3,Environmental,Logical Reasoning,Control vs Treatment A,Treatment A > Control,178,230,3.0,3.0,18956.0,0.9111205885356191,1.0,False
+Q4,Environmental,Timing,Control vs Treatment A,Treatment A > Control,178,230,3.0,3.0,21436.0,0.19485252631735345,1.0,False
+Q5,Environmental,Clarity,Control vs Treatment A,Treatment A > Control,178,230,3.0,3.0,18690.0,0.9440541172282717,1.0,False
+Q6,Social,Credibility,Control vs Treatment A,Treatment A > Control,178,230,3.0,3.0,21822.0,0.11198385679879413,1.0,False
+Q7,Social,Emotional Appeal,Control vs Treatment A,Treatment A > Control,178,230,3.0,3.0,22585.0,0.03042281481504264,1.0,False
+Q8,Social,Logical Reasoning,Control vs Treatment A,Treatment A > Control,178,230,3.0,3.0,19158.5,0.8782610525486862,1.0,False
+Q9,Social,Timing,Control vs Treatment A,Treatment A > Control,178,230,2.0,2.0,22139.5,0.06985968792108214,1.0,False
+Q10,Social,Clarity,Control vs Treatment A,Treatment A > Control,178,230,3.0,3.0,19614.0,0.7773073193563522,1.0,False
+Q11,Economic,Credibility,Control vs Treatment A,Treatment A > Control,178,230,3.0,3.0,21510.0,0.17091672049221052,1.0,False
+Q12,Economic,Emotional Appeal,Control vs Treatment A,Treatment A > Control,178,230,3.0,3.0,21849.0,0.10440448149499115,1.0,False
+Q13,Economic,Logical Reasoning,Control vs Treatment A,Treatment A > Control,178,230,3.0,3.0,18161.0,0.9826947882915493,1.0,False
+Q14,Economic,Timing,Control vs Treatment A,Treatment A > Control,178,230,2.0,3.0,22064.5,0.07832009961246607,1.0,False
+Q15,Economic,Clarity,Control vs Treatment A,Treatment A > Control,178,230,3.0,3.0,19600.0,0.783898005774235,1.0,False
+Invest,—,Investment Allocation %,Control vs Treatment A,Treatment A > Control,178,230,50.0,50.0,24752.0,8.684474867004218e-05,0.004081703187491983,True
+Q1,Environmental,Credibility,Control vs Treatment B,Treatment B > Control,178,310,3.0,3.0,26409.0,0.7995739947531333,1.0,False
+Q2,Environmental,Emotional Appeal,Control vs Treatment B,Treatment B > Control,178,310,3.0,3.0,28065.0,0.3657636803948049,1.0,False
+Q3,Environmental,Logical Reasoning,Control vs Treatment B,Treatment B > Control,178,310,3.0,3.0,24424.5,0.9867379007133489,1.0,False
+Q4,Environmental,Timing,Control vs Treatment B,Treatment B > Control,178,310,3.0,2.0,26715.0,0.731326132169962,1.0,False
+Q5,Environmental,Clarity,Control vs Treatment B,Treatment B > Control,178,310,3.0,3.0,25398.0,0.9394730345767328,1.0,False
+Q6,Social,Credibility,Control vs Treatment B,Treatment B > Control,178,310,3.0,3.0,29341.0,0.10646078877798604,1.0,False
+Q7,Social,Emotional Appeal,Control vs Treatment B,Treatment B > Control,178,310,3.0,3.0,31113.0,0.006740830108996244,0.303337354904831,False
+Q8,Social,Logical Reasoning,Control vs Treatment B,Treatment B > Control,178,310,3.0,3.0,25416.0,0.9362789873925469,1.0,False
+Q9,Social,Timing,Control vs Treatment B,Treatment B > Control,178,310,2.0,2.0,28329.0,0.30259912005154066,1.0,False
+Q10,Social,Clarity,Control vs Treatment B,Treatment B > Control,178,310,3.0,3.0,26643.0,0.7478183046560669,1.0,False
+Q11,Economic,Credibility,Control vs Treatment B,Treatment B > Control,178,310,3.0,3.0,28394.0,0.28074706090399926,1.0,False
+Q12,Economic,Emotional Appeal,Control vs Treatment B,Treatment B > Control,178,310,3.0,3.0,28729.5,0.2067244856059628,1.0,False
+Q13,Economic,Logical Reasoning,Control vs Treatment B,Treatment B > Control,178,310,3.0,3.0,23782.5,0.9969227222028467,1.0,False
+Q14,Economic,Timing,Control vs Treatment B,Treatment B > Control,178,310,2.0,3.0,28698.5,0.21721427919213548,1.0,False
+Q15,Economic,Clarity,Control vs Treatment B,Treatment B > Control,178,310,3.0,3.0,25225.0,0.9546080807573657,1.0,False
+Invest,—,Investment Allocation %,Control vs Treatment B,Treatment B > Control,178,310,50.0,75.0,37218.5,1.512516502647077e-11,7.260079212705969e-10,True
+Q1,Environmental,Credibility,Treatment A vs Treatment B,Treatment B > Treatment A,230,310,3.0,3.0,36294.5,0.3515480197057471,1.0,False
+Q2,Environmental,Emotional Appeal,Treatment A vs Treatment B,Treatment B > Treatment A,230,310,3.0,3.0,34671.5,0.7205416762624891,1.0,False
+Q3,Environmental,Logical Reasoning,Treatment A vs Treatment B,Treatment B > Treatment A,230,310,3.0,3.0,34188.5,0.8044398331120993,1.0,False
+Q4,Environmental,Timing,Treatment A vs Treatment B,Treatment B > Treatment A,230,310,3.0,2.0,32815.0,0.9523896729718859,1.0,False
+Q5,Environmental,Clarity,Treatment A vs Treatment B,Treatment B > Treatment A,230,310,3.0,3.0,35982.5,0.4229212037326082,1.0,False
+Q6,Social,Credibility,Treatment A vs Treatment B,Treatment B > Treatment A,230,310,3.0,3.0,35535.5,0.5273151911023727,1.0,False
+Q7,Social,Emotional Appeal,Treatment A vs Treatment B,Treatment B > Treatment A,230,310,3.0,3.0,36324.0,0.3468495313091253,1.0,False
+Q8,Social,Logical Reasoning,Treatment A vs Treatment B,Treatment B > Treatment A,230,310,3.0,3.0,35088.5,0.6289213328635714,1.0,False
+Q9,Social,Timing,Treatment A vs Treatment B,Treatment B > Treatment A,230,310,2.0,2.0,33575.5,0.8868137629034308,1.0,False
+Q10,Social,Clarity,Treatment A vs Treatment B,Treatment B > Treatment A,230,310,3.0,3.0,35830.0,0.4581394179566537,1.0,False
+Q11,Economic,Credibility,Treatment A vs Treatment B,Treatment B > Treatment A,230,310,3.0,3.0,34821.0,0.6920544550553651,1.0,False
+Q12,Economic,Emotional Appeal,Treatment A vs Treatment B,Treatment B > Treatment A,230,310,3.0,3.0,34643.0,0.7282861191209353,1.0,False
+Q13,Economic,Logical Reasoning,Treatment A vs Treatment B,Treatment B > Treatment A,230,310,3.0,3.0,34810.5,0.6920736220061019,1.0,False
+Q14,Economic,Timing,Treatment A vs Treatment B,Treatment B > Treatment A,230,310,3.0,3.0,34204.5,0.8020078776054861,1.0,False
+Q15,Economic,Clarity,Treatment A vs Treatment B,Treatment B > Treatment A,230,310,3.0,3.0,34287.0,0.7908876854550355,1.0,False
+Invest,—,Investment Allocation %,Treatment A vs Treatment B,Treatment B > Treatment A,230,310,50.0,75.0,40889.0,0.0012397227358844813,0.057027245850686144,False

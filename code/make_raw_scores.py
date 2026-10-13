@@ -115,6 +115,23 @@ def main():
     pd.DataFrame(summary).to_csv(out / "_condition_summary.csv", index=False)
     print(f"\nWrote per-condition raw scores + _condition_summary.csv -> {out}")
 
+    # ---- combined analysis-ready Study 3 dataset (ALL conditions, one file) ----
+    combined = pd.DataFrame()
+    combined["Condition"] = df["Group"].map({
+        "Group1": "Control", "Group2": "Treatment A",
+        "Group3": "Treatment B", "Group4": "Treatment C"})
+    combined["Group"] = df["Group"]
+    combined["ResponseId"] = df["ResponseId"]
+    combined["PitchID"] = df["PitchID"]
+    for raw_col, label in ITEM_LABELS.items():
+        combined[label] = encode_likert(df[raw_col])
+    combined["Investment_pct"] = parse_invest(df["Invest"])
+    combined = combined[combined["Condition"].notna()]
+    study3_path = Path(args.csv).resolve().parent / "study3_spring2026_survey.csv"
+    combined.to_csv(study3_path, index=False)
+    print(f"Wrote combined Study 3 (Spring 2026) analysis-ready dataset "
+          f"({len(combined)} rows) -> {study3_path}")
+
 
 if __name__ == "__main__":
     main()

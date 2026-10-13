@@ -17,7 +17,7 @@ Dep. Variable:                   Rank   Log-Likelihood:                -4740.1
 Model:                   OrderedModel   AIC:                             9522.
 Method:            Maximum Likelihood   BIC:                             9648.
 Date:                Tue, 13 Oct 2026                                         
-Time:                        00:54:09                                         
+Time:                        01:18:38                                         
 No. Observations:                2975                                         
 Df Residuals:                    2954                                         
 Df Model:                          17                                         

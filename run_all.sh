@@ -7,8 +7,8 @@ cd "$(dirname "$0")/code"
 echo "==> [1/5] Split survey into per-condition raw scores"
 python3 make_raw_scores.py
 
-echo "==> [2/5] Mann-Whitney U tests  (paper Table 2 & Table 3)"
-python3 mann_whitney_analysis.py
+echo "==> [2/5] Study 3 hypothesis tests: Mann-Whitney U + Holm (Table 2 & Table 3)"
+python3 study3_hypothesis_tests.py
 
 echo "==> [3/5] Experiment figures      (paper Fig 2, 3, 5, 6, 7)"
 python3 generate_figures.py

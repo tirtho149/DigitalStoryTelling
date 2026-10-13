@@ -12,7 +12,7 @@ Dep. Variable:             Importance   R-squared:                       0.048
 Model:                            OLS   Adj. R-squared:                  0.041
 Method:                 Least Squares   F-statistic:                     6.243
 Date:                Tue, 13 Oct 2026   Prob (F-statistic):           1.35e-19
-Time:                        00:54:05   Log-Likelihood:                -1054.5
+Time:                        01:18:33   Log-Likelihood:                -1054.5
 No. Observations:                2975   AIC:                             2159.
 Df Residuals:                    2950   BIC:                             2309.
 Df Model:                          24                                         

@@ -1,0 +1,17 @@
+outcome,dimension,criterion,contrast,H1,n_lo,n_hi,median_lo,median_hi,U,p_one_sided,p_holm,significant_holm_.05
+Q1,Environmental,Credibility,Treatment A vs Treatment C,Treatment C > Treatment A,230,370,3.0,3.0,40395.5,0.8660547273176069,1.0,False
+Q2,Environmental,Emotional Appeal,Treatment A vs Treatment C,Treatment C > Treatment A,230,370,3.0,3.0,39295.5,0.953049564810365,1.0,False
+Q3,Environmental,Logical Reasoning,Treatment A vs Treatment C,Treatment C > Treatment A,230,370,3.0,3.0,38231.5,0.9857927538631908,1.0,False
+Q4,Environmental,Timing,Treatment A vs Treatment C,Treatment C > Treatment A,230,370,3.0,3.0,38550.0,0.9794867567029555,1.0,False
+Q5,Environmental,Clarity,Treatment A vs Treatment C,Treatment C > Treatment A,230,370,3.0,3.0,40591.5,0.839792463159853,1.0,False
+Q6,Social,Credibility,Treatment A vs Treatment C,Treatment C > Treatment A,230,370,3.0,3.0,43219.5,0.36457431698787235,1.0,False
+Q7,Social,Emotional Appeal,Treatment A vs Treatment C,Treatment C > Treatment A,230,370,3.0,3.0,44603.0,0.14836791333281818,1.0,False
+Q8,Social,Logical Reasoning,Treatment A vs Treatment C,Treatment C > Treatment A,230,370,3.0,3.0,41933.5,0.6230069314485096,1.0,False
+Q9,Social,Timing,Treatment A vs Treatment C,Treatment C > Treatment A,230,370,2.0,2.0,41640.5,0.6773345827302469,1.0,False
+Q10,Social,Clarity,Treatment A vs Treatment C,Treatment C > Treatment A,230,370,3.0,3.0,43530.0,0.3096211967193419,1.0,False
+Q11,Economic,Credibility,Treatment A vs Treatment C,Treatment C > Treatment A,230,370,3.0,3.0,42090.0,0.5945772666933458,1.0,False
+Q12,Economic,Emotional Appeal,Treatment A vs Treatment C,Treatment C > Treatment A,230,370,3.0,3.0,41874.0,0.6383450529213279,1.0,False
+Q13,Economic,Logical Reasoning,Treatment A vs Treatment C,Treatment C > Treatment A,230,370,3.0,3.0,38690.5,0.976999131150118,1.0,False
+Q14,Economic,Timing,Treatment A vs Treatment C,Treatment C > Treatment A,230,370,3.0,3.0,41622.5,0.6816440053019684,1.0,False
+Q15,Economic,Clarity,Treatment A vs Treatment C,Treatment C > Treatment A,230,370,3.0,3.0,39878.0,0.914426649674558,1.0,False
+Invest,—,Investment Allocation %,Treatment A vs Treatment C,Treatment C > Treatment A,230,370,50.0,75.0,53890.0,4.7856110601069765e-09,7.656977696171162e-08,True
