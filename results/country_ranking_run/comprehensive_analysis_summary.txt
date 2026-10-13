@@ -1,0 +1,112 @@
+COMPREHENSIVE FEATURE IMPORTANCE ANALYSIS
+================================================================================
+
+DATASET OVERVIEW
+----------------------------------------
+Total number of students: 595
+Number of countries: 5
+Number of features: 5
+
+Countries and sample sizes:
+   Kenya: 229 students
+   Peru: 107 students
+   Bolivia: 92 students
+   Philli: 86 students
+   Armenia: 81 students
+
+Features analyzed:
+  1. Credibility (Social Sustainability)
+  2. Emotional Appeal (Environmental Sustainability)
+  3. Emotional Appeal (Social Sustainability)
+  4. Logical Reasoning (Economic Sustainability)
+  5. Timing (Environmental Sustainability)
+
+MODEL PERFORMANCE COMPARISON
+----------------------------------------
+OLS Model R-squared: 0.0483
+OLS Model Adj. R-squared: 0.0406
+OLS Model F-statistic: 6.2434 (p = 0.000000)
+OLR Model Pseudo R-squared: 0.0100
+OLR Model Log-likelihood: -4740.0843
+OLR Model AIC: 9522.1686
+OLR Model BIC: 9648.1266
+
+FEATURE IMPORTANCE RANKING (OVERALL)
+----------------------------------------
+1. Timing (Environmental Sustainability): 0.553
+2. Credibility (Social Sustainability): 0.503
+3. Logical Reasoning (Economic Sustainability): 0.503
+4. Emotional Appeal (Environmental Sustainability): 0.489
+5. Emotional Appeal (Social Sustainability): 0.452
+
+COUNTRY-WISE FEATURE PREFERENCES
+----------------------------------------
+ Armenia:
+  Most valued: Emotional Appeal (Social Sustainability) (0.636)
+  Least valued: Credibility (Social Sustainability) (0.330)
+  Range: 0.306
+
+ Bolivia:
+  Most valued: Emotional Appeal (Environmental Sustainability) (0.549)
+  Least valued: Credibility (Social Sustainability) (0.429)
+  Range: 0.120
+
+ Kenya:
+  Most valued: Emotional Appeal (Environmental Sustainability) (0.526)
+  Least valued: Emotional Appeal (Social Sustainability) (0.474)
+  Range: 0.052
+
+ Peru:
+  Most valued: Timing (Environmental Sustainability) (0.682)
+  Least valued: Emotional Appeal (Social Sustainability) (0.306)
+  Range: 0.376
+
+ Philli:
+  Most valued: Credibility (Social Sustainability) (0.616)
+  Least valued: Emotional Appeal (Social Sustainability) (0.398)
+  Range: 0.218
+
+CROSS-COUNTRY VARIATIONS
+----------------------------------------
+Credibility (Social Sustainability):
+  Mean: 0.496
+  Std Dev: 0.121
+  Range: 0.330 - 0.616
+  Highest in:  Philli
+  Lowest in:  Armenia
+
+Emotional Appeal (Environmental Sustainability):
+  Mean: 0.479
+  Std Dev: 0.056
+  Range: 0.427 - 0.549
+  Highest in:  Bolivia
+  Lowest in:  Philli
+
+Emotional Appeal (Social Sustainability):
+  Mean: 0.454
+  Std Dev: 0.121
+  Range: 0.306 - 0.636
+  Highest in:  Armenia
+  Lowest in:  Peru
+
+Logical Reasoning (Economic Sustainability):
+  Mean: 0.513
+  Std Dev: 0.038
+  Range: 0.476 - 0.568
+  Highest in:  Armenia
+  Lowest in:  Kenya
+
+Timing (Environmental Sustainability):
+  Mean: 0.557
+  Std Dev: 0.072
+  Range: 0.500 - 0.682
+  Highest in:  Peru
+  Lowest in:  Armenia
+
+KEY INSIGHTS
+----------------------------------------
+1. Most important feature overall: Timing (Environmental Sustainability) (0.553)
+2. Least important feature overall: Emotional Appeal (Social Sustainability) (0.452)
+3. Importance range: 0.452 to 0.553
+4. Model explains 4.8% of variance in importance ratings
+5. OLR model successfully converged with pseudo R²: 0.010

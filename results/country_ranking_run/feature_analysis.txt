@@ -1,0 +1,15 @@
+FEATURE ANALYSIS
+==================================================
+
+Feature columns identified: ['Credibility (Social Sustainability)', 'Emotional Appeal (Environmental Sustainability)', 'Emotional Appeal (Social Sustainability)', 'Logical Reasoning (Economic Sustainability)', 'Timing (Environmental Sustainability)']
+
+Long format data shape: (2975, 5)
+
+Rank range: 1 to 5
+
+Overall Feature Importance (highest to lowest):
+Timing (Environmental Sustainability): 0.553
+Credibility (Social Sustainability): 0.503
+Logical Reasoning (Economic Sustainability): 0.503
+Emotional Appeal (Environmental Sustainability): 0.489
+Emotional Appeal (Social Sustainability): 0.452

@@ -1,0 +1,43 @@
+SAVED FILES SUMMARY
+==================================================
+
+All analysis results have been saved to:
+../results/country_ranking_run
+
+FILES CREATED:
+------------------------------
+1. VISUALIZATIONS:
+   - feature_importance_heatmaps.png
+   - model_diagnostics.png
+
+2. LATEX TABLES:
+   - table1_average_importance.tex
+   - table2_ols_significance.tex
+   - table3_olr_results.tex
+   - all_latex_tables.txt
+
+3. DATA FILES:
+   - average_importance.csv
+   - ols_predicted_importance.csv
+   - olr_predicted_importance.csv
+   - analysis_data_long_format.csv
+   - statistical_significance_matrix.csv
+   - feature_ranking_comparison.csv
+
+4. ANALYSIS REPORTS:
+   - data_overview.txt
+   - feature_analysis.txt
+   - ols_model_results.txt
+   - olr_model_results.txt
+   - comprehensive_analysis_summary.txt
+   - saved_files_summary.txt
+
+Total files created: 14
+
+RECOMMENDED NEXT STEPS:
+------------------------------
+1. Review the comprehensive_analysis_summary.txt for key insights
+2. Use the LaTeX tables in your academic paper
+3. Include the heatmaps as figures in your analysis
+4. Check model_diagnostics.png for model validation
+5. Use feature_ranking_comparison.csv for cross-method validation

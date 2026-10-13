@@ -1,0 +1,56 @@
+OLS MODEL RESULTS
+================================================================================
+
+R-squared: 0.0483
+Adj. R-squared: 0.0406
+F-statistic: 6.2434 (p = 0.000000)
+
+Full Model Summary:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             Importance   R-squared:                       0.048
+Model:                            OLS   Adj. R-squared:                  0.041
+Method:                 Least Squares   F-statistic:                     6.243
+Date:                Tue, 13 Oct 2026   Prob (F-statistic):           1.35e-19
+Time:                        00:54:05   Log-Likelihood:                -1054.5
+No. Observations:                2975   AIC:                             2159.
+Df Residuals:                    2950   BIC:                             2309.
+Df Model:                          24                                         
+Covariance Type:            nonrobust                                         
+==================================================================================================================================================
+                                                                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------------------------------------------------
+Intercept                                                                          0.3302      0.038      8.581      0.000       0.255       0.406
+Country[T. Bolivia]                                                                0.0991      0.053      1.878      0.060      -0.004       0.203
+Country[T. Kenya]                                                                  0.1719      0.045      3.840      0.000       0.084       0.260
+Country[T. Peru]                                                                   0.2749      0.051      5.389      0.000       0.175       0.375
+Country[T. Philli]                                                                 0.2860      0.054      5.334      0.000       0.181       0.391
+Feature[T.Emotional Appeal (Environmental Sustainability)]                         0.1358      0.054      2.495      0.013       0.029       0.243
+Feature[T.Emotional Appeal (Social Sustainability)]                                0.3056      0.054      5.614      0.000       0.199       0.412
+Feature[T.Logical Reasoning (Economic Sustainability)]                             0.2377      0.054      4.367      0.000       0.131       0.344
+Feature[T.Timing (Environmental Sustainability)]                                   0.1698      0.054      3.119      0.002       0.063       0.276
+Country[T. Bolivia]:Feature[T.Emotional Appeal (Environmental Sustainability)]    -0.0162      0.075     -0.218      0.828      -0.163       0.130
+Country[T. Kenya]:Feature[T.Emotional Appeal (Environmental Sustainability)]      -0.1118      0.063     -1.765      0.078      -0.236       0.012
+Country[T. Peru]:Feature[T.Emotional Appeal (Environmental Sustainability)]       -0.3134      0.072     -4.344      0.000      -0.455      -0.172
+Country[T. Philli]:Feature[T.Emotional Appeal (Environmental Sustainability)]     -0.3248      0.076     -4.282      0.000      -0.473      -0.176
+Country[T. Bolivia]:Feature[T.Emotional Appeal (Social Sustainability)]           -0.2784      0.075     -3.730      0.000      -0.425      -0.132
+Country[T. Kenya]:Feature[T.Emotional Appeal (Social Sustainability)]             -0.3339      0.063     -5.274      0.000      -0.458      -0.210
+Country[T. Peru]:Feature[T.Emotional Appeal (Social Sustainability)]              -0.6046      0.072     -8.381      0.000      -0.746      -0.463
+Country[T. Philli]:Feature[T.Emotional Appeal (Social Sustainability)]            -0.5236      0.076     -6.904      0.000      -0.672      -0.375
+Country[T. Bolivia]:Feature[T.Logical Reasoning (Economic Sustainability)]        -0.1371      0.075     -1.837      0.066      -0.283       0.009
+Country[T. Kenya]:Feature[T.Logical Reasoning (Economic Sustainability)]          -0.2639      0.063     -4.167      0.000      -0.388      -0.140
+Country[T. Peru]:Feature[T.Logical Reasoning (Economic Sustainability)]           -0.3638      0.072     -5.043      0.000      -0.505      -0.222
+Country[T. Philli]:Feature[T.Logical Reasoning (Economic Sustainability)]         -0.3423      0.076     -4.513      0.000      -0.491      -0.194
+Country[T. Bolivia]:Feature[T.Timing (Environmental Sustainability)]              -0.0638      0.075     -0.855      0.393      -0.210       0.083
+Country[T. Kenya]:Feature[T.Timing (Environmental Sustainability)]                -0.1501      0.063     -2.370      0.018      -0.274      -0.026
+Country[T. Peru]:Feature[T.Timing (Environmental Sustainability)]                 -0.0927      0.072     -1.284      0.199      -0.234       0.049
+Country[T. Philli]:Feature[T.Timing (Environmental Sustainability)]               -0.2395      0.076     -3.158      0.002      -0.388      -0.091
+==============================================================================
+Omnibus:                     1921.622   Durbin-Watson:                   2.003
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              169.645
+Skew:                          -0.008   Prob(JB):                     1.45e-37
+Kurtosis:                       1.830   Cond. No.                         41.7
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

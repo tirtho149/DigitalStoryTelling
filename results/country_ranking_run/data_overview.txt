@@ -1,0 +1,22 @@
+DATA OVERVIEW
+==================================================
+
+Data shape: (595, 7)
+
+First 5 rows:
+   Student_ID   Country  Credibility (Social Sustainability)  Emotional Appeal (Environmental Sustainability)  Emotional Appeal (Social Sustainability)  Logical Reasoning (Economic Sustainability)  Timing (Environmental Sustainability)
+0           1   Armenia                                    5                                                3                                         2                                            1                                      4
+1           2   Armenia                                    2                                                3                                         1                                            4                                      5
+2           3   Armenia                                    1                                                2                                         3                                            4                                      5
+3           4   Armenia                                    5                                                3                                         1                                            4                                      2
+4           5   Armenia                                    2                                                5                                         3                                            1                                      4
+
+Countries in dataset: [' Armenia', ' Bolivia', ' Kenya', ' Peru', ' Philli']
+
+Number of students per country:
+Country
+Kenya      229
+Peru       107
+Bolivia     92
+Philli      86
+Armenia     81

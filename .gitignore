@@ -1,0 +1,29 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+
+# ---- Secrets / credentials (NEVER commit) ----
+.env
+*credential*
+*client_secret*
+token.pickle
+*token*.json
+*.key
+
+# ---- Large media / stimuli (not needed to reproduce the numbers) ----
+*.mp4
+*.mov
+*kivaImages/
+*kivaVideos*/
+*kivaSamples*/
+valid_jsons/
+G1pages/
+G2pages/

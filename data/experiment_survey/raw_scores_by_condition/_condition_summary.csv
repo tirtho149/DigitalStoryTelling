@@ -1,0 +1,5 @@
+condition,group,participants,rows,mean_invest,pct_ge75,pct_100
+control,Group1,89,178,52.39,37.6,10.1
+treatmentA,Group2,115,230,62.61,49.6,23.5
+treatmentB,Group3,155,310,69.68,64.2,31.9
+treatmentC,Group4,185,370,75.61,67.8,47.6

@@ -1,0 +1,49 @@
+Item,Grid,Dimension,Question,Comparison,n (Group1),n (GroupX),Median (G1),Median (Gx),Mean (G1),Mean (Gx),U-stat,p (one-sided),Bonf sig,p (Holm-adj),Holm sig,H1
+Q1,Grid1,Environmental sustainability,Credibility,Group1 vs Group2,178,178,3.0,3.0,3.0225,2.9944,15491.0,0.64965,✗,1.0,✗,Group2 > Group1
+Q1,Grid1,Environmental sustainability,Credibility,Group1 vs Group3,178,178,3.0,3.0,3.0225,2.9494,14686.0,0.89516,✗,1.0,✗,Group3 > Group1
+Q1,Grid1,Environmental sustainability,Credibility,Group1 vs Group4,178,178,3.0,3.0,3.0225,2.8427,13099.0,0.99842,✗,1.0,✗,Group4 > Group1
+Q2,Grid1,Environmental sustainability,Emotional appeal,Group1 vs Group2,178,178,3.0,3.0,2.8483,2.9551,16784.5,0.15006,✗,0.45018,✗,Group2 > Group1
+Q2,Grid1,Environmental sustainability,Emotional appeal,Group1 vs Group3,178,178,3.0,3.0,2.8483,2.9017,16090.0,0.39402,✗,0.78804,✗,Group3 > Group1
+Q2,Grid1,Environmental sustainability,Emotional appeal,Group1 vs Group4,178,178,3.0,3.0,2.8483,2.7837,14308.0,0.95068,✗,0.95068,✗,Group4 > Group1
+Q3,Grid1,Environmental sustainability,Logical reasoning,Group1 vs Group2,178,178,3.0,3.0,2.9719,2.8848,14751.0,0.88018,✗,1.0,✗,Group2 > Group1
+Q3,Grid1,Environmental sustainability,Logical reasoning,Group1 vs Group3,178,178,3.0,3.0,2.9719,2.8034,13476.0,0.99396,✗,1.0,✗,Group3 > Group1
+Q3,Grid1,Environmental sustainability,Logical reasoning,Group1 vs Group4,178,178,3.0,2.5833,2.9719,2.6835,12087.5,0.99996,✗,1.0,✗,Group4 > Group1
+Q4,Grid1,Environmental sustainability,Timing,Group1 vs Group2,178,178,3.0,3.0,2.5225,2.6461,16963.5,0.11384,✗,0.34152,✗,Group2 > Group1
+Q4,Grid1,Environmental sustainability,Timing,Group1 vs Group3,178,178,3.0,2.5,2.5225,2.4551,15064.0,0.79663,✗,1.0,✗,Group3 > Group1
+Q4,Grid1,Environmental sustainability,Timing,Group1 vs Group4,178,178,3.0,2.5,2.5225,2.4354,14774.5,0.87064,✗,1.0,✗,Group4 > Group1
+Q5,Grid1,Environmental sustainability,Clarity,Group1 vs Group2,178,178,3.0,3.0,3.1011,2.9972,14713.0,0.8894,✗,1.0,✗,Group2 > Group1
+Q5,Grid1,Environmental sustainability,Clarity,Group1 vs Group3,178,178,3.0,3.0,3.1011,2.9635,13962.0,0.97775,✗,1.0,✗,Group3 > Group1
+Q5,Grid1,Environmental sustainability,Clarity,Group1 vs Group4,178,178,3.0,3.0,3.1011,2.8511,12259.0,0.99993,✗,1.0,✗,Group4 > Group1
+Q6,Grid2,Social sustainability,Credibility,Group1 vs Group2,178,178,3.0,3.0,2.7528,2.8904,16940.5,0.11672,✗,0.35017,✗,Group2 > Group1
+Q6,Grid2,Social sustainability,Credibility,Group1 vs Group3,178,178,3.0,3.0,2.7528,2.8483,16390.0,0.27601,✗,0.35017,✗,Group3 > Group1
+Q6,Grid2,Social sustainability,Credibility,Group1 vs Group4,178,178,3.0,3.0,2.7528,2.8904,16893.0,0.1316,✗,0.35017,✗,Group4 > Group1
+Q7,Grid2,Social sustainability,Emotional appeal,Group1 vs Group2,178,178,3.0,3.0,2.6966,2.8624,17461.0,0.04143,✗,0.06243,✗,Group2 > Group1
+Q7,Grid2,Social sustainability,Emotional appeal,Group1 vs Group3,178,178,3.0,3.0,2.6966,2.8904,17589.0,0.03121,✗,0.06243,✗,Group3 > Group1
+Q7,Grid2,Social sustainability,Emotional appeal,Group1 vs Group4,178,178,3.0,3.0,2.6966,2.9448,18234.0,0.00561,✓,0.01682,✓,Group4 > Group1
+Q8,Grid2,Social sustainability,Logical reasoning,Group1 vs Group2,178,178,3.0,3.0,2.7191,2.6208,14724.0,0.8855,✗,1.0,✗,Group2 > Group1
+Q8,Grid2,Social sustainability,Logical reasoning,Group1 vs Group3,178,178,3.0,2.5,2.7191,2.573,14084.5,0.97025,✗,1.0,✗,Group3 > Group1
+Q8,Grid2,Social sustainability,Logical reasoning,Group1 vs Group4,178,178,3.0,2.5,2.7191,2.5843,13958.5,0.97678,✗,1.0,✗,Group4 > Group1
+Q9,Grid2,Social sustainability,Timing,Group1 vs Group2,178,178,2.0,2.0,2.2191,2.4101,17548.0,0.03424,✗,0.10272,✗,Group2 > Group1
+Q9,Grid2,Social sustainability,Timing,Group1 vs Group3,178,178,2.0,2.0,2.2191,2.2416,16515.0,0.23668,✗,0.23668,✗,Group3 > Group1
+Q9,Grid2,Social sustainability,Timing,Group1 vs Group4,178,178,2.0,2.5,2.2191,2.3118,17386.5,0.05157,✗,0.10315,✗,Group4 > Group1
+Q10,Grid2,Social sustainability,Clarity,Group1 vs Group2,178,178,3.0,3.0,2.9101,2.8427,15119.0,0.7818,✗,1.0,✗,Group2 > Group1
+Q10,Grid2,Social sustainability,Clarity,Group1 vs Group3,178,178,3.0,3.0,2.9101,2.8343,14693.0,0.89038,✗,1.0,✗,Group3 > Group1
+Q10,Grid2,Social sustainability,Clarity,Group1 vs Group4,178,178,3.0,3.0,2.9101,2.8661,14691.0,0.88918,✗,1.0,✗,Group4 > Group1
+Q11,Grid3,Economic sustainability,Credibility,Group1 vs Group2,178,178,3.0,3.0,3.0562,3.1264,16664.0,0.18333,✗,0.54998,✗,Group2 > Group1
+Q11,Grid3,Economic sustainability,Credibility,Group1 vs Group3,178,178,3.0,3.0,3.0562,3.1152,16243.0,0.33119,✗,0.66237,✗,Group3 > Group1
+Q11,Grid3,Economic sustainability,Credibility,Group1 vs Group4,178,178,3.0,3.0,3.0562,3.0852,15810.5,0.51375,✗,0.66237,✗,Group4 > Group1
+Q12,Grid3,Economic sustainability,Emotional appeal,Group1 vs Group2,178,178,3.0,3.5,3.1348,3.236,16835.5,0.13941,✗,0.41823,✗,Group2 > Group1
+Q12,Grid3,Economic sustainability,Emotional appeal,Group1 vs Group3,178,178,3.0,3.5,3.1348,3.2051,15946.0,0.45591,✗,0.91183,✗,Group3 > Group1
+Q12,Grid3,Economic sustainability,Emotional appeal,Group1 vs Group4,178,178,3.0,3.5,3.1348,3.1863,15732.5,0.54653,✗,0.91183,✗,Group4 > Group1
+Q13,Grid3,Economic sustainability,Logical reasoning,Group1 vs Group2,178,178,3.0,3.0,3.0,2.823,13766.0,0.98897,✗,1.0,✗,Group2 > Group1
+Q13,Grid3,Economic sustainability,Logical reasoning,Group1 vs Group3,178,178,3.0,3.0,3.0,2.8034,13184.5,0.99815,✗,1.0,✗,Group3 > Group1
+Q13,Grid3,Economic sustainability,Logical reasoning,Group1 vs Group4,178,178,3.0,2.5,3.0,2.6835,11209.0,1.0,✗,1.0,✗,Group4 > Group1
+Q14,Grid3,Economic sustainability,Timing,Group1 vs Group2,178,178,2.0,2.5,2.4101,2.5899,17412.0,0.04637,✗,0.13912,✗,Group2 > Group1
+Q14,Grid3,Economic sustainability,Timing,Group1 vs Group3,178,178,2.0,2.5,2.4101,2.4466,16331.0,0.30119,✗,0.39421,✗,Group3 > Group1
+Q14,Grid3,Economic sustainability,Timing,Group1 vs Group4,178,178,2.0,2.5,2.4101,2.4897,16647.5,0.1971,✗,0.39421,✗,Group4 > Group1
+Q15,Grid3,Economic sustainability,Clarity,Group1 vs Group2,178,178,3.0,3.0,3.1573,3.1039,15070.0,0.79935,✗,1.0,✗,Group2 > Group1
+Q15,Grid3,Economic sustainability,Clarity,Group1 vs Group3,178,178,3.0,3.0,3.1573,3.0421,13703.0,0.98899,✗,1.0,✗,Group3 > Group1
+Q15,Grid3,Economic sustainability,Clarity,Group1 vs Group4,178,178,3.0,3.0,3.1573,2.9775,12790.5,0.99939,✗,1.0,✗,Group4 > Group1
+Invest,—,Investment,Investment %,Group1 vs Group2,178,178,50.0,62.5,52.3876,63.2725,19566.0,4e-05,✓,4e-05,✓,Group2 > Group1
+Invest,—,Investment,Investment %,Group1 vs Group3,178,178,50.0,75.0,52.3876,70.0843,22020.5,0.0,✓,0.0,✓,Group3 > Group1
+Invest,—,Investment,Investment %,Group1 vs Group4,178,178,50.0,75.0,52.3876,75.6554,23796.0,0.0,✓,0.0,✓,Group4 > Group1
